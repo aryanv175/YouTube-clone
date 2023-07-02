@@ -1,0 +1,247 @@
+button{
+    transition: all 0.15s;
+    margin: 4px;
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-top: 9px;
+    padding-bottom: 9px;
+}
+
+.subscribe-button{
+    background-color: rgb(200, 0, 0);
+    color: white;
+    border: none;
+    
+    border-radius: 2px;
+    cursor: pointer;
+    margin-right: 8px;
+    transition: opacity 0.15s;
+}
+
+.subscribe-button:hover{
+    opacity: 0.8;
+}
+
+.subscribe-button:active{
+    opacity: 0.5;
+}
+
+.join-button{
+    background-color: white;
+    color: rgb(36, 103, 184);
+    border-radius: 3px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border-color: rgb(36, 103, 184);
+    border-style: solid;
+    border-width: 1px;
+    cursor: pointer;
+    margin-right: 8px;
+    font-weight: 540;
+    transition: background-color 0.2s, color 0.25s, border-color 0.2s;
+}
+
+.join-button:hover{
+    background-color: rgb(36, 103, 184);
+    color: white;
+    border-color: white;
+
+}
+
+.join-button:active{
+    opacity: 0.7;
+}
+
+.tweet-button{
+    background-color: rgb(41, 118, 211);
+    color: white;
+    border-radius: 100px;
+    border-color: rgb(41, 118, 211);
+    border-style: solid;
+    border-width: 1px;
+    font-weight: 750;
+    cursor: pointer;
+    margin-right: 8px;
+    
+    transition: box-shadow 0.15s;
+}
+
+.tweet-button:hover{
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.uber-button{
+    background-color: black;
+    border: none;
+    color: white;
+    font-size: small;
+    cursor: pointer;
+    transition: all 0.15s;
+}
+
+.uber-button:hover{
+    opacity: 0.8;
+}
+
+.amazon-button{
+    background-color: rgb(255, 216, 20);
+    color: black;
+    border-radius: 100px;
+    border-color: rgb(255, 216, 20);
+    border-style: solid;
+    border-width: 1px;
+    font-weight: 200;
+    cursor: pointer;
+    margin-right: 8px;
+    margin-top: 8px;
+    transition: all 0.15s;
+}
+
+.amazon-button:hover{
+    background-color: rgb(212, 180, 21);
+    border-color:rgb(212, 180, 21) ;
+    
+}
+
+.git-button{
+    background-color: rgb(46, 164, 79);
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: bold;
+    margin-right: 8px;
+    margin-top: 8px;
+    transition: all 0.15s;
+}
+
+.git-button:hover{
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.boot1-button{
+    background-color: rgb(121, 82, 179);
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+    margin-right: 8px;
+    margin-top: 8px;
+}
+
+.boot1-button:hover{
+    background-color: rgb(103, 71, 151);
+}
+
+.boot2-button{
+    background-color: white;
+    color: rgb(108, 117, 125);
+    border-radius: 4px;
+    border-color: rgb(108, 117, 125);
+    border-style: solid;
+    border-width: 1px;
+    cursor: pointer;
+    margin-right: 8px;
+    font-weight: bold;
+}
+
+.boot2-button:hover{
+    background-color: rgb(108, 117, 125);
+    color: white;
+    border-color: rgb(108, 117, 125);
+}
+
+.link1-button{
+    background-color: rgb(10, 102, 194);
+    color: white;
+    border-radius: 100px;
+    border-color: rgb(10, 102, 194);
+    border-style: solid;
+    border-width: 1px;
+    font-weight: 750;
+    cursor: pointer;
+    margin-right: 8px;
+    margin-top: 8px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.link1-button:hover{
+    background-color: rgb(9, 82, 156);
+}
+
+.link2-button{
+    background-color: white;
+    color: rgb(10, 102, 194);
+    border-radius: 100px;
+    border-color: rgb(10, 102, 194);
+    border-style: solid;
+    border-width: 1px;
+    font-weight: 750;
+    cursor: pointer;
+    margin-right: 8px;
+    margin-top: 8px;
+}
+
+.link2-button:hover{
+    background-color: rgba(204, 225, 246, 0.4);
+    border-width: 2px;
+}
+
+.test{
+    color: rgb(0, 118, 0);
+}
+
+.b1-ce{
+    background-color: rgb(255, 216, 20);
+    border-radius: 100px;
+    border: none;
+    font-weight: bold;
+    margin-right: 12px;
+    cursor: pointer;
+}
+
+.b2-ce{
+    background-color: rgb(255, 164, 28);
+    border-radius: 100px;
+    border: none;
+    font-weight: bold;
+    margin-right: 12px;
+    cursor: pointer;
+}
+
+.test1{
+    color: rgb(0, 113, 133);
+    font-weight: bold;
+}
+
+.stretch{
+    margin: 8px;
+    background-color: green;
+    border: none;
+    color: white;
+    transition: all 0.2s;
+}
+
+.stretch:hover{
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+
+.threed{
+    margin: 8px;
+    background-color: green;
+    border: none;
+    color: white;
+    transition: all 0.2s;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.4);
+}
+
+.threed:active{
+    margin-bottom: 0px;
+    margin-right: 0px;
+    box-shadow: none;
+}
